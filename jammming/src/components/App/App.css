@@ -1,0 +1,52 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 19px;
+}
+
+h1 {
+  padding: 1.4rem 0;
+  background-color: purple;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.70rem;
+  color: #fff;
+}
+
+h1 .highlight {
+  color: #fe95b5;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.50rem;
+}
+
+.App {
+  height: 100%;
+  padding: 0 18% 9% 18%;
+  background-image: url('./headphones.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
